@@ -1,0 +1,250 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#main{
+	width: 1044px;
+	height: 840px;
+	padding-left: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*左半边*/
+#left{
+	width: 220px;
+	height: 880px;
+	float: left;
+}
+#movielist{
+	background-image: url(http://www.lovelive-anime.jp/otonokizaka/index.hyperesources/kokuban-1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#movie{
+	width: 212px;
+	height: 590px;
+}
+#movie1{
+	pointer-events: auto;
+	position: absolute;
+	overflow: visible;
+	display: inline;
+	z-index: 159;
+	width: 178px;
+	height: 92px;
+	transform-origin: 50% 50%;
+	transform: translateX(16px) translateY(17px) rotateY(0deg);
+}
+#movie2{
+	pointer-events: auto;
+	position: absolute;
+	overflow: visible;
+	z-index: 158;
+	display: inline;
+	width: 191px;
+	height: 92px;
+	transform-origin: 50% 50%;
+	transform: translateX(9px) translateY(109px) rotateY(0deg);
+}
+#movie3{
+	pointer-events: auto;
+	position: absolute;
+	overflow: visible;
+	z-index: 157;
+	display: inline;
+	width: 188px;
+	height: 92px;
+	transform-origin: 50% 50%;
+	transform: translateX(12px) translateY(201px) rotateY(0deg);
+}
+#movie4{
+	pointer-events: auto;
+	position: absolute;
+	overflow: visible;
+	z-index: 156;
+	display: inline;
+	width: 183px;
+	height: 92px;
+	transform-origin: 50% 50%;
+	transform: translateX(13px) translateY(293px) rotateY(0deg);
+}
+#movie5{
+	pointer-events: auto;
+	position: absolute;
+	overflow: visible;
+	z-index: 155;
+	display: inline;
+	width: 183px;
+	height: 92px;
+	transform-origin: 50% 50%;
+	transform: translateX(14px) translateY(385px) rotateY(0deg);
+}
+#movie6{
+	pointer-events: auto;
+	position: absolute;
+	overflow: visible;
+	z-index: 154;
+	display: inline;
+	width: 182px;
+	height: 92px;
+	transform-origin: 50% 50%;
+	transform: translateX(14px) translateY(478px) rotateY(0deg);
+}
+#list{
+	text-align: center;
+	transform: translateY(-20px);
+}
+#tw{
+	width: 210px;
+	height: 260px;
+	padding-top: 5px;
+	overflow-x: auto;
+}
+
+/*中央内容*/
+#center{
+	float: right;
+	background-image: url(http://www.lovelive-anime.jp/otonokizaka/img/top/keyv9.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	width: 804px;
+	height: 850px;
+	margin-top: -15px;
+	margin-left: 20px;
+}
+#world{
+	margin-top: 25px;
+	margin-left: 650px;
+}
+#gekijyou{
+	width: 390px;
+	/*position:absolute;*/
+	position: relative;
+	top: 620px;
+	padding-left: 10px;
+}
+
+/*main下导航栏*/
+#navi{
+	margin: inherit;
+	display: inline-block;
+	max-height: 40px;
+	margin-left: 40px;
+}
+#navi1{
+	display: inline-block;
+	float: left;
+}
+#navi2{
+	display: inline-block;
+	float: left;
+}
+#navi3{
+	display: inline-block;
+	float: left;
+}
+#navi4{
+	display: inline-block;
+	float: left;
+}
+#navi5{
+	display: inline-block;
+	float: left;
+}
+#navi6{
+	display: inline-block;
+	float: left;
+}
+#navi7{
+	display: inline-block;
+	float: left;
+}
+#navi8{
+	display: inline-block;
+	float: left;	
+}
+
+/*尾部*/
+#footer{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: 490px;
+}
+#info{
+	overflow: auto;
+}
+#info1{
+	display: inline-block;
+	float: left;
+}
+#info2{
+	display: inline-block;
+	float: right;
+}
+#info3{
+	display: inline-block;
+	float: right;
+	margin-left: 5px;
+}
+#info4{
+	display: inline-block;
+	float: left;
+}
+#info5{
+	display: inline-block;
+	float: right;
+}
+#info6{
+	display: inline-block;
+	float: right;
+	margin-left: 5px;
+}
+#info7{
+	display: inline-block;
+	float: left;
+}
+#info8{
+	display: inline-block;
+	float: right;
+}
+#info9{
+	display: inline-block;
+	float: right;
+	margin-left: 5px;
+}
+#info10{
+	display: inline-block;
+	float: left;
+}
+#info11{
+	display: inline-block;
+	float: right;
+}
+#info12{
+	display: inline-block;
+	float: right;
+	margin-left: 5px;
+}
+#info13{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#nzer{
+	display: inline-block;
+	width: 330px;
+	height: 80px;
+}
+#copyright{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 13px;
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,Verdana,'ＭＳ Ｐゴシック',sans-serif;
+}
